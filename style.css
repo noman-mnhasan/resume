@@ -61,12 +61,37 @@ h1, h2, h3 {
     border-right: 1px solid lightgray;
 }
 
+
+/* CUSTOM ENTRIES */
+
+.container {
+    display : flex;
+    justify-content:space-evenly;
+}
+
+
 .description {
     font-size: 15px;
 }
 
 .bullet-point {
-    margin-bottom: 10px;
+    list-style-type:square;
+    margin-bottom: 20px;
+}
+
+.bullet-point a {
+    text-decoration: none;
+    font-size: 15px;
+    /* border: 1px; */
+    /* width: 20px; */
+    /* padding: 5px 35px; */
+    color: #272727;
+    /* background-color: #f5f5f5; */
+} 
+
+.bullet-point a:hover {
+    color: #779696;
+    /* background-color: #779696; */
 }
 
 .contact-entry {
@@ -74,6 +99,16 @@ h1, h2, h3 {
     padding-left: 10px;
     font-size: 15px;
 }
+
+.contact-entry a {
+    text-decoration: none;
+    font-size: 15px;
+    /* border: 1px; */
+    /* width: 20px; */
+    /* padding: 5px 35px; */
+    color: #272727;
+    /* background-color: #f5f5f5; */
+} 
 
 .education-entry {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -83,11 +118,24 @@ h1, h2, h3 {
 
 .text-justified {
     text-align: justify;
+    hyphens: auto;
+    /* Vendor prefixes for broader compatibility */
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 .skill-list {
     margin: 0px 20px;
     padding: 0px 10px;
+}
+
+.paragraph-highlight {
+    color:#676b6a;
+    font-weight:600;
+}
+
+.anchor-icon {
+    font-size: 12px;
 }
 
 .job-company {
@@ -99,5 +147,42 @@ h1, h2, h3 {
     font-size: 15px;
     font-weight:550;
 }
+
+.table-text {
+    color: #494949;
+}
+
+
+/* CUSTOM ENTRIES - NAVIGATION */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-list {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+#nav-list a {
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px;
+    width: 20px;
+    padding: 5px 35px;
+    color: #272727;
+    background-color: #f5f5f5;
+}
+
+#nav-list a:hover {
+    color: #ececec;
+    background-color: #779696;
+}
+
+
 
 
