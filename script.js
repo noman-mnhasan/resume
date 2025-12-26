@@ -132,7 +132,7 @@ contentLinks.forEach(link => {
 
         const capturedFilepath = document.getElementById(link.id).getAttribute('data-content');
 
-        displayArea.innerHTML = capturedFilepath;
+        // displayArea.innerHTML = capturedFilepath;
 
         // Call the "loadHtmlContent" function;
         loadHtmlContent(capturedFilepath, 'display-area')
