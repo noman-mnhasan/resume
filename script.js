@@ -141,5 +141,18 @@ contentLinks.forEach(link => {
 
 
 
+window.onload = function() {
+    // Code to execute after the entire page and all resources have loaded
+    console.log('Window loaded completely!');
+    displayArea.innerHTML = `
+        <div id="portfolio-on-window-load" class="description text-justified">Hello! I am Noman Hasan, a mechanical engineer with specialization in fluid and thermal simulation, simulation automation, workflow automation, and data analysis and modeling. 
+        <br>
+        <br>
+        Welcome to my portfolio!!
+        <br>
+        Please select an item on the left to see details.</p>
+    `;
+};
+
 
 
