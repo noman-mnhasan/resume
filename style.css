@@ -57,7 +57,11 @@ h1, h2, h3 {
     padding: 0;
 }
 
-#mainLeft {
+#main-left-resume {
+    border-right: 1px solid lightgray;
+}
+
+#main-left-portfolio {
     border-right: 1px solid lightgray;
 }
 
@@ -130,8 +134,8 @@ h1, h2, h3 {
 }
 
 .paragraph-highlight {
-    color:#676b6a;
-    font-weight:600;
+    color:#215548;
+    font-weight:400;
 }
 
 .anchor-icon {
